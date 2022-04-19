@@ -1,12 +1,13 @@
 function setup() {
   //Star Speed function(optional)
-  
+  let cnv=createCanvas(400, 400);
+  cnv.parent("canvasContainer")
   frameRate(5);
 }
 
 function draw() {
  
-  createCanvas(400, 400);
+  
   background(0);
 
   fill(245, 255, 0, 500);
