@@ -1,0 +1,33 @@
+.canvas1Frame{
+    width: 420px;
+    height:420px
+   
+}
+.canvas2Frame{
+    width: 420px;
+    height:420px
+    
+}
+.canvas3Frame{
+    width: 420px;
+    height:420px
+}
+.canvas4Frame{
+    width: 420px;
+    height:420px
+}
+
+iframe{
+    display: block;
+}
+html, body {
+    margin: 0;
+    
+    padding: 0;
+    background-color: rgba(37, 215, 185, 0.237);
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+    
+  }
+  
