@@ -11,12 +11,18 @@ function setup() {
   cnv.parent("canvasContainer1")
   cnv.mouseClicked(togglePlay)
   amplitude = new p5.Amplitude();
+  
+
 }
 
 function draw() {
   background(0);
   let level = amplitude.getLevel();
   let dia = map(level, 0, 1, 0, 200);
+  fill(0, 50);
+  rect(0, 0, width, height);
+  fill(255);
+  ellipse(random(width), random(height), 3, 3);
   fill(255)
   circle(350,40,30)
   push()
