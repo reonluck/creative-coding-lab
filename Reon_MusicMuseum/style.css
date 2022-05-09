@@ -7,16 +7,17 @@
 .canvas2Frame{
     width: 420px;
     height:420px;
-    
+    margin-left: 800px;
 }
 .canvas3Frame{
     width: 420px;
     height:420px;
-    margin-left: 800px;
+    margin-left: 0px;
 }
 .canvas4Frame{
     width: 420px;
     height:420px;
+    margin-left: 800px;
 }
 
 iframe{
@@ -26,7 +27,7 @@ html, body {
     margin: 0;
     
     padding: 0;
-    background-color: rgba(6, 155, 241, 0.105);
+    background-color: rgba(22, 6, 241, 0.068);
    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
