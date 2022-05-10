@@ -19,13 +19,12 @@ function setup() {
 function draw() {
   let level = amplitude.getLevel();
   let dia = map(level, 0, 1, 0, 200);
-  let r=random(0,250)
+  let r=random(200,250)
   let g=random(0,250)
   let b=random(0,250)
   fill(r,g,b)
-  x=random(0,400)
-  y=random(0,400)
-  circle(x,y,dia)
+  
+  circle(200,200,2*dia)
   
   push()
   fill (255)

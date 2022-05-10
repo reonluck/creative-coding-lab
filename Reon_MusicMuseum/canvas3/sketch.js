@@ -33,7 +33,7 @@ function draw(){
 
   
 
- let x1 = frameCount%(3*width);
+ let x1 = frameCount%(1.5*width);
   let y1 = sin(y * 0.08) *5;
   let y2 = sin(y * 0.08) *5+30
 noStroke();
