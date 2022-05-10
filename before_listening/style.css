@@ -25,6 +25,7 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    
 }
 .content a{
     display: block;
@@ -42,7 +43,7 @@
 .text1 {
     font-size:500%;
     text-align: center;
-    color:#ececec;
+    color:#f8f8f8fd;
     font-family:fantasy;
   
    }
@@ -55,12 +56,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .text4{
-    color:#ececec;
+    color:#f8f8f8fd;
     font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
 }
 .text5{
-    color:#ececec;
+    color:#f8f8f8fd;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: 900
 }
