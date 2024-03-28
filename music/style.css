@@ -1,0 +1,44 @@
+.canvas1Frame {
+    width: 420px;
+    height: 420px;
+    margin-left: 0; 
+}
+
+.canvas2Frame {
+    width: 420px;
+    height: 420px;
+    margin-left: 0; 
+}
+
+.canvas3Frame {
+    width: 420px;
+    height: 420px;
+    margin-left: 0;
+}
+
+.canvas4Frame {
+    width: 420px;
+    height:420px;
+    margin-left: 0; 
+}
+
+iframe {
+    display: block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(22, 6, 241, 0.068);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+text {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+
+a {
+    font-size: 30px;
+}
